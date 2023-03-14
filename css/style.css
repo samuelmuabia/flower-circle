@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  height: 300px;
+  width: 400px;
+  background: radial-gradient(
+      1Q at 50% 75px,
+      #0000 65px,
+      #243d83 65px 85px,
+      #0000 1%
+    ),
+    radial-gradient(
+      1Q at 50% 225px,
+      #0000 65px,
+      #243d83 65px 85px,
+      #0000 1%
+    ),
+    radial-gradient(
+      1Q at 125px, 
+      #0000 65px, 
+      #243d83 65px 85px, 
+      #0000 1%
+    ),
+    radial-gradient(
+      1Q at 275px, 
+      #0000 65px, 
+      #243d83 65px 85px, 
+      #0000 1%),
+    radial-gradient(
+      200Q, 
+      #6592cf 100px, 
+      #243d83 1%);
+}
